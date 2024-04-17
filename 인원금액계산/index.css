@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  max-width: 400px;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 5px 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  white-space: nowrap;
+}
+table th button,
+table td button {
+  width: 30px;
+  height: 30px;
+}
+table th button + span,
+table td button + span {
+  display: inline-block;
+  width: 30px;
+}
+table th {
+  padding: 10px 0;
+  background-color: #f1f1f1;
+  letter-spacing: 5px;
+  text-indent: 5px;
+  font-weight: 700;
+}
+table tr:nth-of-type(1) td, table tr:nth-of-type(2) td {
+  width: 100%;
+}

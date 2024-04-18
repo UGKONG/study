@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -53,4 +54,17 @@ main > section {
 }
 #pad > div:hover {
   background-color: #f1f1f1;
+}
+#pad > div.active {
+  background-color: #f00;
+  color: #fff;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+#히스토리 > li {
+  letter-spacing: 1px;
+  margin-bottom: 5px;
 }

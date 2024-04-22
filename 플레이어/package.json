@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "concurrently \"tsc ./index.ts --outDir ./build -w\" \"sass ./index.scss build/index.css --watch --no-source-map\"",
+    "dev": "yarn start"
+  }
+}

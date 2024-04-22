@@ -85,7 +85,7 @@ var allDelete = function () {
 };
 // 퍼센트
 var percent = function () {
-    result = result / 100;
+    result /= 100;
     render();
 };
 // 계산

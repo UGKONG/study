@@ -98,7 +98,7 @@ const allDelete = () => {
 };
 // 퍼센트
 const percent = () => {
-  result = result / 100;
+  result /= 100;
   render();
 };
 // 계산

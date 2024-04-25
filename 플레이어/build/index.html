@@ -4,15 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>플레이어</title>
-    <link rel="stylesheet" href="./index.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+      }
+      body {
+        padding: 20px;
+      }
+    </style>
   </head>
+
   <body>
-    <h1>UKTUBE</h1>
-    <main>
-      <!-- <img src="./assets/img.png" /> -->
-      <!-- <video src="./assets/video.mp4" /> -->
+    <h3>UkTube</h3>
+    <div class="player">
       <!-- js -->
-    </main>
+    </div>
   </body>
-  <script defer src="./index.js"></script>
+
+  <script type="module">
+    import { Player } from "./player.js";
+
+    const player = new Player({
+      el: ".player",
+      thumb: "./assets/img.png",
+      video: "./assets/video.pm4",
+    });
+  </script>
 </html>
